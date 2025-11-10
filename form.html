@@ -4,47 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
-    <link rel="stylesheet" href="form.css">
+    <title>Реєстрація - TechFuture 2026</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <img src="https://handmade-hub.ua/wp-content/uploads/2024/09/1ec1d2ce366d1f603b1bde70ae508063.webp"
-            alt="Логотип конференції" width="48" height="48">
-        <h1>TechFuture 2026</h1>
-
+        <div class="logo-container">
+            <img src="https://handmade-hub.ua/wp-content/uploads/2024/09/1ec1d2ce366d1f603b1bde70ae508063.webp"
+                alt="Логотип конференції" width="48" height="48">
+            <h1>TechFuture 2026</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="#about">Про конференцію</a></li>
-                <li><a href="#speakers">Доповідачі</a></li>
-                <li><a href="#schedule">Програма</a></li>
-                <li><a href="#tickets">Реєстрація</a></li>
+                <li><a href="index.html">Про конференцію</a></li>
+                <li><a href="about.html">Програма</a></li>
+                <li><a href="speaker.html">Доповідачі</a></li>
+                <li><a class="active" href="form.html">Реєстрація</a></li>
+                <li><a href="contact.html">Контакти</a></li>
             </ul>
         </nav>
     </header>
+
     <main class="bodee">
         <form class="form">
-            <h1 class="form_title">Реєстрація :</h1>
+            <h2 class="form_title">Реєстрація на TechFuture 2026</h2>
+
             <div class="form_group">
-                <input class="form_input" placeholder=".">
-                <label class="form_label">ПІБ</label>
+                <input class="form_input" type="text" id="name" name="user_name" placeholder=" " required>
+                <label class="form_label" for="name">ПІБ</label>
             </div>
+
             <div class="form_group">
-                <input class="form_input" placeholder=".">
-                <label class="form_label">Пошта</label>
+                <input class="form_input" type="email" id="email" name="user_email" placeholder=" " required>
+                <label class="form_label" for="email">Email</label>
             </div>
+
             <div class="form_group">
-                <input class="form_input" placeholder=".">
-                <label class="form_label">Пароль</label>
+                <input class="form_input" type="tel" id="phone" name="user_phone" placeholder=" ">
+                <label class="form_label" for="phone">Номер телефону</label>
             </div>
-            <div class="form_group">
-            </div>
-            <button class="form_button">Замовити</button>
+
+            <button type="submit" class="form_button">Зареєструватися</button>
         </form>
     </main>
+
     <footer>
-        <strong>TechFuture 2026</strong>
+        <p><strong>TechFuture 2026</strong></p>
         <p>© 2026 — Всі права захищенi</p>
     </footer>
 </body>
