@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background: #f6f8fa;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img {
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #1a1a1a;
+}
+
+header p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+nav ul {
+    position: relative;
+    top: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#hero {
+    text-align: center;
+    background: linear-gradient(to right, #d6c804, #00b4d8);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 60px 20px;
+}
+
+#hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    font-size: 1.1em;
+}
+
+#hero ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+#hero a {
+    display: inline-block;
+    background: #fff;
+    color: #0073e6;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#hero a:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+#about p {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+#schedule article {
+    margin: 15px 0;
+    font-size: 1.05em;
+}
+
+#schedule aside {
+    background: #f0f4f8;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+#schedule aside h4, #schedule aside h5 {
+    margin-top: 0;
+    color: #0073e6;
+}
+
+#schedule aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#schedule aside li {
+    margin-bottom: 8px;
+}
+
+footer {
+    background: #1a1a1a;
+    color: #ddd;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.95em;
+}
+
+
+
+
