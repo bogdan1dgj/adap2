@@ -10,7 +10,7 @@
             position: relative;
             right: -100px;
             width: 90%;
-            
+
         }
 
         .shapka {
@@ -23,6 +23,31 @@
             margin: 10px;
         }
 
+        .nav1 {
+            position: relative;
+            right: -650px;
+            font-size: 22px;
+            display: block;
+            justify-items: center;
+            align-items: center;
+            margin: 10px;
+            border: solid rgb(156, 139, 139);
+            box-shadow: 10px;
+            border-radius: 20px;
+            width: 600px;
+
+        }
+
+        .nav,
+        li {
+            font-size: 28px;
+        }
+
+
+        .nav,
+        li :hover {
+            color: red;
+        }
     </style>
 </head>
 
@@ -32,12 +57,19 @@
             <h1>Програма заходу</h1>
         </div>
     </header>
-    <nav>
-
+    <nav class="nav1">
+        <h2>Навігація по сайту</h2>
+        <ul>
+            <li><a href="index.html">Програма конференції</a></li>
+            <li><a href="about.html">Головна</a></li>
+            <li><a href="">Спікери</a></li>
+            <li><a href="">Реєстрація</a></li>
+            <li><a href="">Контакти</a></li>
+        </ul>
     </nav>
     <main>
         <table border="1" cellspacing="0" cellpadding="8" class="wq">
-            <caption style="margin: 10px;">Розклад подій на 15 березня 2025 року.</caption>
+            <caption style="margin: 10px; font-size: 25px;"><b>Розклад подій на 15 березня 2025 року.</b></caption>
             <tr>
                 <th>Час</th>
                 <th>Сесія</th>
